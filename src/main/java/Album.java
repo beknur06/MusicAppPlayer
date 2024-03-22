@@ -4,13 +4,13 @@ import java.util.LinkedList;
 public class Album {
     private String name;
     private String artist;
-    private int releaseDate;
+    private int releaseYear;
     private ArrayList<Song> songs;
 
-    public Album(String name, String artist, int releaseDate, ArrayList<Song> songs) {
+    public Album(String name, String artist, int releaseYear) {
         this.name = name;
         this.artist = artist;
-        this.releaseDate = releaseDate;
+        this.releaseYear = releaseYear;
         this.songs = new ArrayList<Song>();
     }
     public Album(){
