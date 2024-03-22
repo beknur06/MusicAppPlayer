@@ -31,5 +31,14 @@ public class Main {
     private static void play(LinkedList<Song> playList){
 
     }
+    private static void printMenu(){
+        System.out.println("Please pick the option:");
+        System.out.println("0 - to exit");
+        System.out.println("1 - to play next song");
+        System.out.println("2 - to play previous song");
+        System.out.println("3 - to replay current song");
+        System.out.println("4 - list of all songs");
+
+    }
 
 }
