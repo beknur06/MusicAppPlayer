@@ -17,7 +17,8 @@ public class Song {
     public int getDuration() {
         return duration;
     }
-    public String about(){
+    @Override
+    public String toString(){
         return "Song{ name: " + name + ", duration: " + duration + "}";
     }
 
