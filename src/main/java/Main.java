@@ -28,4 +28,8 @@ public class Main {
         play(playList_1);
     }
 
+    private static void play(LinkedList<Song> playList){
+
+    }
+
 }
